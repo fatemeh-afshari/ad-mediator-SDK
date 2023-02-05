@@ -47,7 +47,7 @@ After initialzing library you should request ad into your view model. Once an ad
         viewModelScope.launch {
             repository.requestAd().collect { result ->
                 when (result) {
-                    is AdRequestResultState.Loading -> //TODO()
+                    is AdRequestResultState.Loading -> TODO()
                     is AdRequestResultState.adFailed -> TODO()
                     is AdRequestResultState.adIsReady -> {
                         result.data?.let { showAd(it) }
@@ -62,10 +62,10 @@ After initialzing library you should request ad into your view model. Once an ad
         viewModelScope.launch {
             repository.showAd(ad).collect { result ->
                 when (result) {
-                    AdShowState.Completed -> //TODO()
-                    AdShowState.Failed -> //TODO()
-                    AdShowState.Loading -> //TODO()
-                    AdShowState.Started -> //TODO()
+                    AdShowState.Completed -> TODO()
+                    AdShowState.Failed -> TODO()
+                    AdShowState.Loading -> TODO()
+                    AdShowState.Started -> TODO()
                 }
             }
         }
