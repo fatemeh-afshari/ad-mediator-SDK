@@ -13,7 +13,6 @@
             <option value="$PROJECT_DIR$/ad-mediator" />
             <option value="$PROJECT_DIR$/ad-mediator/core" />
             <option value="$PROJECT_DIR$/ad-mediator/data" />
-            <option value="$PROJECT_DIR$/ad-mediator/domain" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/unity-ad" />
           </set>

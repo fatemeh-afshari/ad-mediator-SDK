@@ -50,7 +50,6 @@ android {
 
 dependencies {
     api project(":ad-mediator:data")
-    api project(":ad-mediator:domain")
     api project(":ad-mediator:core")
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
