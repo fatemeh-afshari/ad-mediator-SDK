@@ -1,5 +1,5 @@
 # Ad Mediator SDK
-Android Ad Mediator SDK to manage two ad networks (Tapsell and UnityAds), using Kotlin, Hilt, Coroutines, Retrofit, Moshi and Clean Architecture.
+Android Ad Mediator SDK to manage two ad networks (Tapsell and UnityAds), using Kotlin, Hilt, Coroutines, Retrofit, Moshi, Room and Clean Architecture.
 
 [![](https://jitpack.io/v/fatemeh-afshari/ad-mediator-SDK.svg)](https://jitpack.io/#fatemeh-afshari/ad-mediator-SDK)
 ![License MIT](https://img.shields.io/badge/MIT-9E9F9F?style=flat-square&label=License)
