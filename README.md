@@ -22,7 +22,7 @@ dependencies {
 ```
 ## Usage
 --------
-This library consists of three functions: `initializeAdNetworks`, `requestAd` and `showAd`. First of all you should use Hilt librsry and inject it into your Application class, then initialze the ad networks:
+This library consists of three functions: `initializeAdNetworks`, `requestAd` and `showAd`. First of all you should use Hilt library and inject ad mediator `Repository` it into your `Application` class, then initialize the ad networks:
 
 
 ```kotlin
